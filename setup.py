@@ -38,8 +38,8 @@ setuptools.setup(
         "torch >= 1.6.0",
         "numpy >= 1.21,<1.25",
         "scipy >= 1.6.2",
-        "h5py == 2.8.0",
-        "matplotlib == 3.3.4"
+        "h5py >= 3.6,<4.0",
+        "matplotlib >= 3.6,<3.8"
     ],
     python_requires='~=3.6',
     ext_modules=cythonize(ext_modules),
