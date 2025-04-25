@@ -33,7 +33,7 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=['examples', 'tests']),
     install_requires=[
         "cython >= 0.29",
-        "numba == 0.57.0",
+        "numba == 0.56.4",
         "llvmlite == 0.40.1",
         "torch >= 1.6.0",
         "numpy >= 1.21,<1.25",
